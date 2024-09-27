@@ -85,7 +85,6 @@ ul {
   padding-inline: 16px;
 }
 
-
 .pc {
   display: none;
 }
@@ -136,7 +135,7 @@ ul {
   line-height: 32px;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #272D37;
+  color: #272d37;
   margin-inline: 32px;
 }
 
@@ -150,17 +149,16 @@ ul {
 .builder p {
   margin-bottom: 16px;
 }
- .button {
+.button {
   display: flex;
   gap: 6px;
-
- }
- .button h6 {
+}
+.button h6 {
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
-  color: #437EF7;
- }
+  color: #437ef7;
+}
 
 .demonstrate-section {
   display: grid;
@@ -172,7 +170,7 @@ ul {
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -0.02em;
-  color: #272D37;
+  color: #272d37;
   margin-inline: 16px;
 }
 
@@ -189,3 +187,60 @@ ul {
   gap: 8px;
 }
 /*Ece kodlar biter */
+.footer-section {
+  margin-block: 32px;
+}
+.footer-section p {
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+.footer-section-inner {
+  display: flex;
+  gap: 64px;
+}
+.footer-list {
+  margin-top: 24px;
+}
+.footer-list h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  padding-bottom: 4px;
+}
+.footer-list li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  padding-top: 12px;
+}
+.footer-list-design {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  row-gap: 24px;
+  column-gap: 64px;
+}
+.footer-button {
+  margin-top: 24px;
+}
+.margin-inline-auto {
+  margin-inline: auto;
+}
+.footer-button p {
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  display: ruby-text;
+  padding-top: 8px;
+}
+
+.footer-hidden-icon {
+  display: flex;
+  align-items: center;
+  display: none;
+}
