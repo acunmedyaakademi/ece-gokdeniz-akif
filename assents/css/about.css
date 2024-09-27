@@ -118,3 +118,78 @@ ul {
   color: #5f6d7e;
 }
 
+/*Ece kodlar başlar */
+.messages {
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  width: 339px;
+}
+
+.demonstrate-section a {
+  text-decoration: none;
+}
+
+.demonstrate-section h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #272D37;
+  margin-inline: 32px;
+}
+
+.texts img {
+  margin-bottom: 16px;
+}
+
+.builder h5 {
+  margin-bottom: 8px;
+}
+.builder p {
+  margin-bottom: 16px;
+}
+ .button {
+  display: flex;
+  gap: 6px;
+
+ }
+ .button h6 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #437EF7;
+ }
+
+.demonstrate-section {
+  display: grid;
+  gap: 32px;
+}
+
+.demonstrate-section h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 343px;
+  color: #272D37;
+  margin-inline: 16px;
+}
+
+.first {
+  display: flex;
+  gap: 8px;
+}
+.second {
+  display: flex;
+  gap: 8px;
+}
+.third {
+  display: flex;
+  gap: 8px;
+}
+/*Ece kodlar biter */
