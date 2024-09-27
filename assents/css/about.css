@@ -189,3 +189,69 @@ ul {
   gap: 8px;
 }
 /*Ece kodlar biter */
+/*Ece kodlar başlar */
+.top-footer {
+  background-color: #2B63D9;
+}
+
+.footer-text {
+  display: grid;
+  margin-inline: 16px;
+}
+
+.footer-buton-first {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #437EF7;
+  background-color: #FFFFFF;
+  padding: 12px 18px 12px 18px;
+  border-radius: 6px;
+ 
+}
+
+.footer-buton-second {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #437EF7;
+  padding: 12px 18px 12px 18px;
+  border-radius: 6px;
+ 
+}
+
+.footer-text p {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-inline: auto;
+}
+
+.footer-text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-button {
+  display: grid;
+  gap: 16px;
+}
+
+.companies {
+  margin-top: 64px; 
+  display: grid;
+  gap: 32px;
+  justify-items: center;
+}
