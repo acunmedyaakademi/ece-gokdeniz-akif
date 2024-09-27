@@ -87,6 +87,34 @@ ul {
 .pc {
   display: none;
 }
+.header-section {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.header-section span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #437ef7;
+  padding-bottom: 32px;
+  display: block;
+}
+.header-section h3 {
+  padding-bottom: 16px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+.header-section p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+}
 @media (width > 1023px) {
   .header {
     padding-block: 0;
