@@ -22,8 +22,7 @@
 */
 body {
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Inter";
+  font-family: "Inter",sans-serif;
 }
 
 /*
@@ -50,7 +49,17 @@ p,h1,h2,h3,h4,h5,h6 {
 a {
   text-decoration: none;
 }
+
 ul {
   list-style: none;
+}
+
+
+.container {
+    max-width: 375px;
+}
+
+.container-inner {
+    padding-inline: 16px;
 }
 
