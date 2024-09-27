@@ -85,7 +85,6 @@ ul {
   padding-inline: 16px;
 }
 
-
 .pc {
   display: none;
 }
@@ -136,7 +135,7 @@ ul {
   line-height: 32px;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #272D37;
+  color: #272d37;
   margin-inline: 32px;
 }
 
@@ -150,17 +149,16 @@ ul {
 .builder p {
   margin-bottom: 16px;
 }
- .button {
+.button {
   display: flex;
   gap: 6px;
-
- }
- .button h6 {
+}
+.button h6 {
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
-  color: #437EF7;
- }
+  color: #437ef7;
+}
 
 .demonstrate-section {
   display: grid;
@@ -172,7 +170,7 @@ ul {
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -0.02em;
-  color: #272D37;
+  color: #272d37;
   margin-inline: 16px;
 }
 
@@ -224,40 +222,37 @@ p {
   margin-block: 12px 32px;
 }
 
-
 .blogger-container {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-
 .blogger-card img {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 span {
-    color: rgba(95, 109, 126, 1);
-    margin-block: 24px 12px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+  color: rgba(95, 109, 126, 1);
+  margin-block: 24px 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .socialmedia-icons {
-    display: flex;
-    margin-top: 12px;
-    gap: 16px;
+  display: flex;
+  margin-top: 12px;
+  gap: 16px;
 }
 
 .questions-section {
-    text-align: center;
+  text-align: center;
 }
 
 .questions-section p {
-    margin-block: 12px 32px;
+  margin-block: 12px 32px;
 }
-
 
 .latin-section {
   background-color: rgba(234, 235, 240, 1);
@@ -265,7 +260,6 @@ span {
   border: 1px solid rgba(1, 2, 3, 1);
   text-align: left;
 }
-
 
 .new-card {
   padding-block: 20px;
@@ -284,8 +278,7 @@ span {
   align-items: center;
 }
 
-
-.latin-button a { 
+.latin-button a {
   color: rgba(95, 109, 126, 1);
   font-weight: 500;
   line-height: 24px;
@@ -295,22 +288,19 @@ span {
   display: none;
 }
 
-
-
 .latin-button img {
   width: 20px;
   height: 20px;
   /* padding-inline: 5px; */
 }
 
-
 #hidden {
-    display: none;
+  display: none;
 }
 
-/* Akif css kod bitiş *//*Ece kodlar başlar */
+/* Akif css kod bitiş */
 .top-footer {
-  background-color: #2B63D9;
+  background-color: #2b63d9;
 }
 
 .footer-text {
@@ -323,11 +313,10 @@ span {
   font-weight: 600;
   line-height: 22px;
   text-align: center;
-  color: #437EF7;
-  background-color: #FFFFFF;
+  color: #437ef7;
+  background-color: #ffffff;
   padding: 12px 18px 12px 18px;
   border-radius: 6px;
- 
 }
 
 .footer-buton-second {
@@ -335,11 +324,10 @@ span {
   font-weight: 600;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #437EF7;
+  color: #ffffff;
+  background-color: #437ef7;
   padding: 12px 18px 12px 18px;
   border-radius: 6px;
- 
 }
 
 .footer-text p {
@@ -349,7 +337,7 @@ span {
   font-weight: 600;
   line-height: 20px;
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-inline: auto;
 }
 
@@ -359,7 +347,7 @@ span {
   line-height: 36px;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -369,10 +357,69 @@ span {
 }
 
 .companies {
-  margin-top: 64px; 
+  margin-top: 64px;
   display: grid;
   gap: 32px;
   justify-items: center;
+  padding-bottom: 32px;
 }
 
 /* ece kod bitiş*/
+
+.footer-section {
+  margin-block: 32px;
+}
+.footer-section p {
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+.footer-section-inner {
+  display: flex;
+  gap: 64px;
+}
+.footer-list {
+  margin-top: 24px;
+}
+.footer-list h6 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  padding-bottom: 4px;
+}
+.footer-list li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  padding-top: 12px;
+}
+.footer-list-design {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  row-gap: 24px;
+  column-gap: 64px;
+}
+.footer-button {
+  margin-top: 24px;
+}
+.margin-inline-auto {
+  margin-inline: auto;
+}
+.footer-button p {
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  display: ruby-text;
+  padding-top: 8px;
+}
+
+.footer-hidden-icon {
+  display: flex;
+  align-items: center;
+  display: none;
+}
