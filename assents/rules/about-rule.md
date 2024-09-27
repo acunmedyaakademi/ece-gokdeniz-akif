@@ -6,3 +6,8 @@
 #   font-style: normal;
 #   }
 
+
+# color rgb
+
+# space 4 or 2
+
