@@ -189,3 +189,123 @@ ul {
   gap: 8px;
 }
 /*Ece kodlar biter */
+
+/* Akif css kod başlangıc */
+h5 {
+  color: rgba(39, 45, 55, 1);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+h6 {
+  color: rgba(39, 45, 55, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+
+p {
+  color: rgba(95, 109, 126, 1);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.our-team {
+  text-align: center;
+}
+
+.our-team h5 {
+  padding-top: 40px;
+}
+
+.our-team p {
+  margin-block: 12px 32px;
+}
+
+
+.blogger-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.blogger-card img {
+    margin-bottom: 16px;
+}
+
+span {
+    color: rgba(95, 109, 126, 1);
+    margin-block: 24px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socialmedia-icons {
+    display: flex;
+    margin-top: 12px;
+    gap: 16px;
+}
+
+.questions-section {
+    text-align: center;
+}
+
+.questions-section p {
+    margin-block: 12px 32px;
+}
+
+
+.latin-section {
+  background-color: rgba(234, 235, 240, 1);
+  padding-inline: 32px;
+  border: 1px solid rgba(1, 2, 3, 1);
+  text-align: left;
+}
+
+
+.new-card {
+  padding-block: 20px;
+  border-bottom: 1px solid rgba(1, 2, 3, 1);
+}
+
+.latin-card {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 16px;
+  border-bottom: 1px solid rgb(40, 57, 139);
+}
+
+.latin-button {
+  display: flex;
+  align-items: center;
+}
+
+
+.latin-button a { 
+  color: rgba(95, 109, 126, 1);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.latin-button {
+  display: none;
+}
+
+
+
+.latin-button img {
+  width: 20px;
+  height: 20px;
+  /* padding-inline: 5px; */
+}
+
+
+#hidden {
+    display: none;
+}
+
+/* Akif css kod bitiş */
