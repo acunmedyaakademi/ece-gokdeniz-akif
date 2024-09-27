@@ -123,8 +123,7 @@ ul {
   padding: 18px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
-  width: 339px;
+  row-gap: 40px;
 }
 
 .demonstrate-section a {
@@ -160,7 +159,6 @@ ul {
   font-size: 15px;
   font-weight: 600;
   line-height: 22px;
-  text-align: left;
   color: #437EF7;
  }
 
@@ -174,8 +172,6 @@ ul {
   font-weight: 600;
   line-height: 36px;
   letter-spacing: -0.02em;
-  text-align: left;
-  width: 343px;
   color: #272D37;
   margin-inline: 16px;
 }
