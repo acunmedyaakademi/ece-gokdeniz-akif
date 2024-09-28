@@ -78,6 +78,7 @@ h3 {
 
 .container {
   max-width: 375px;
+  margin-inline: auto;
 }
 
 .container-inner {
@@ -504,9 +505,13 @@ span {
 }
 /* gokdeniz footer bitis */
 
+
+/* Tablet */
+
 @media (width >= 768px) {
   .container {
     max-width: 768px;
+    margin-inline: auto;
   }
 
   .container-inner {
@@ -615,11 +620,13 @@ span {
   }
 }
 
+/* Desktop */
 
 @media(width>= 1024px) {
 
   .container {
     max-width: 1440px;
+    margin-inline: auto;
   }
 
   .container-inner {
