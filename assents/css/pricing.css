@@ -60,6 +60,13 @@ h6 {
   overflow-wrap: break-word;
 }
 
+hr {
+  color: rgba(46, 53, 69, 1);
+  width: 90%;
+  margin-block: 16px;
+  opacity: 0.1;
+}
+
 a {
   text-decoration: none;
 }
@@ -71,10 +78,6 @@ ul {
 .container {
   max-width: 375px;
   margin-inline: auto;
-}
-
-.container-inner {
-  /* padding-inline: 16px; */
 }
 
 .header {
@@ -130,6 +133,140 @@ ul {
   line-height: 26px;
   letter-spacing: -0.10000000149011612px;
   color: #a5acba;
+}
+
+.plan-buttons {
+  display: flex;
+}
+
+.montly-button a {
+  background-color: rgba(51, 59, 72, 1);
+  color: rgba(249, 249, 249, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  width: 164.5px;
+  padding: 9px 58px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.yearly-button a {
+  background-color: rgba(28, 37, 52, 1);
+  color: rgba(165, 172, 186, 1);
+  width: 164.5px;
+  padding: 9px 18px 9px 18px;
+  padding: 9px 58px;
+  gap: 6px;
+  border-radius: 5px;
+}
+
+.price-container {
+  margin-top: 40px;
+  display: grid;
+  gap: 16px;
+}
+
+.price-card {
+  background-color: rgba(37, 45, 60, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border-radius: 5px;
+  border: 1px solid rgba(37, 45, 60, 1);
+}
+
+strong {
+  color: rgba(249, 249, 249, 1);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.price-card h5 {
+  color: rgba(249, 249, 249, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-block: 24px 8px;
+}
+
+.price-card p {
+  color: rgba(165, 172, 186, 1);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-block: 16px;
+}
+
+.features h6 {
+  font-size: 16px;
+  color: rgba(249, 249, 249, 1);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.price-card a {
+  background-color: rgba(67, 126, 247, 1);
+  color: rgba(255, 255, 255, 1);
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-block: 8px;
+  border-radius: 6px;
+  margin-top: 24px;
+}
+
+.main {
+  padding-inline: 16px;
+}
+
+.customer-comment-title {
+  margin-top: 32px;
+  text-align: center;
+}
+.customer-comment-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+}
+.customer-comment {
+  padding-inline: 16px;
+  margin-top: 40px;
+}
+.customer-comment p {
+  padding-block: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+}
+.customer-profile-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.customer-info h6 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+}
+.customer-info span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
 }
 .main {
   padding-inline: 16px;
