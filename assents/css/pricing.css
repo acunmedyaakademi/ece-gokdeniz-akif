@@ -82,7 +82,7 @@ ul {
 
 .header {
   background-color: rgba(21, 27, 40, 1);
-  padding-block: 16px;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -287,10 +287,12 @@ strong {
 }
 
 .middle-content-section span {
+  display: block;
   color: rgba(67, 126, 247, 1);
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
+  margin-bottom: 8px;
 }
 
 .middle-content-section h5 {
@@ -505,7 +507,7 @@ strong {
   display: flex;
   padding-inline: 16px;
   justify-content: space-between;
-  padding-top: 26px;
+  padding-block: 26px 32px;
   border-top: 1px solid rgba(46, 53, 69, 1);
 }
 .footer-bottom span {
@@ -518,4 +520,93 @@ strong {
 .footer-bottom-icon {
   display: flex;
   gap: 24px;
+}
+
+
+@media(width >= 768px) {
+  .container {
+    max-width: 768px;
+    margin-inline: auto;
+  }
+
+  .black-header-content {
+    padding-inline: 32px;
+  }
+
+  .middle-container {
+    padding-inline: 32px;
+  }
+
+  .main {
+    padding-inline: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer {
+    padding-inline: 32px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .header-section {
+    padding: 48px 40px;
+  }
+
+  .header-section h3 {
+    color: rgba(249, 249, 249, 1);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  .plan-buttons {
+    justify-content: center;
+  }
+
+  .price-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  .messages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .connection {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .people {
+    width: 704px;
+  }
+
+  .grid-column {
+    grid-column: span 2;
+  }
+
+  .footer-logo {
+    width: 247px;
+  }
+  
+
+  .upper-footer {
+   padding-inline: 32px;
+  }
+
+  .upper-footer h3 {
+    color:rgba(249, 249, 249, 1);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+  }
+
+  .upper-footer-btn {
+    display: flex;
+    align-items:baseline;
+    gap: 16px;
+  }
 }
