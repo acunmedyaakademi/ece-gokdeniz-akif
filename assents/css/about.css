@@ -69,11 +69,11 @@ ul {
 }
 
 h3 {
-color: #272d37;
-font-size: 24px;
-font-weight: 700;
-line-height: 32px;
-text-align: center;
+  color: #272d37;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
 }
 
 .container {
@@ -152,7 +152,7 @@ text-align: center;
 }
 
 .builder h5 {
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 .builder p {
   margin-bottom: 16px;
@@ -160,6 +160,7 @@ text-align: center;
 .button {
   display: flex;
   gap: 6px;
+  align-items: baseline;
 }
 .button h6 {
   font-size: 15px;
@@ -193,6 +194,22 @@ text-align: center;
 .third {
   display: flex;
   gap: 8px;
+}
+.text-button {
+  padding: 12px 18px 12px 18px;
+  border-radius: 6px;
+  background: rgba(67, 126, 247, 1);
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  display: inline-block;
+  margin-top: 32px;
+}
+.third img {
+  width: 17px;
+  height: 30px;
 }
 /*Ece kodlar biter */
 
@@ -268,6 +285,7 @@ span {
   border: 1px solid rgb(242, 243, 245);
   text-align: left;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .new-card {
@@ -292,7 +310,6 @@ span {
   font-weight: 500;
   line-height: 24px;
 }
-
 
 .latin-button {
   display: none;
@@ -319,7 +336,12 @@ span {
 #hidden {
   visibility: hidden;
 }
-
+.blogger-card h6 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+}
 
 /* Akif css kod bitiş */
 .top-footer {
@@ -394,42 +416,13 @@ span {
 .footer-section {
   margin-block: 32px;
 }
-.footer-section p {
-  line-height: 24px;
-  letter-spacing: -0.10000000149011612px;
-  color: #5f6d7e;
-  padding-top: 16px;
-  padding-bottom: 24px;
-}
+
 .footer-section-inner {
   display: flex;
   gap: 64px;
   justify-content: center;
 }
-.footer-list {
-  margin-top: 24px;
-}
-.footer-list h6 {
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: -0.10000000149011612px;
-  padding-bottom: 4px;
-}
-.footer-list li {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: -0.10000000149011612px;
-  color: #5f6d7e;
-  padding-top: 12px;
-}
-.footer-list-design {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  row-gap: 24px;
-  column-gap: 64px;
-}
+
 .footer-bottom {
   margin-top: 24px;
   text-align: center;
@@ -451,13 +444,50 @@ span {
   justify-content: center;
   display: none;
 }
+.footer {
+  display: grid;
+  row-gap: 24px;
+  column-gap: 64px;
+  grid-template-columns: 2fr 1fr;
+  margin-block: 32px;
+}
+.footer-logo {
+  grid-column: span 2;
+}
 
-/* gokdeniz footer kod bitis */
+.footer img {
+  margin-bottom: 16px;
+}
 
+.footer p {
+  color: #5f6d7e;
 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 24px;
+}
 
+.footer ul li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+  padding-top: 12px;
+}
+
+.footer ul li:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  margin-bottom: 4px;
+  color: #272d37;
+}
+/* gokdeniz footer bitis */
 @media (width >= 768px) {
-
   .container {
     max-width: 768px;
   }
@@ -489,16 +519,13 @@ span {
     line-height: 60px;
   }
 
-
   .messages {
     padding: 36px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
     column-gap: 32px;
-
   }
-
 
   .computer img {
     width: 100%;
@@ -513,7 +540,6 @@ span {
   .author-img {
     width: 336px;
   }
-
 
   .top-footer {
     margin-top: 40px;
@@ -536,7 +562,7 @@ span {
 
   .footer-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .footer-button-icon {
@@ -547,13 +573,23 @@ span {
 
   .footer-hidden-icon {
     display: flex;
-    gap: 24px
+    gap: 24px;
   }
-
-
 
   .footer-section-inner {
     display: none;
   }
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-block: 40px;
+    padding-inline: 32px;
+  }
 
+  .footer-logo {
+    width: 247px;
+  }
+  .mobil {
+    display: none;
+  }
 }
