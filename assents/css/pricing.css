@@ -357,7 +357,8 @@ strong {
 .footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  column-gap: 64px;
+
   padding: 24px 16px 32px;
   background: rgba(21, 27, 40, 1);
 }
