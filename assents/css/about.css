@@ -68,6 +68,14 @@ ul {
   list-style: none;
 }
 
+h3 {
+color: #272d37;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: center;
+}
+
 .container {
   max-width: 375px;
 }
@@ -129,7 +137,7 @@ ul {
   text-decoration: none;
 }
 
-.demonstrate-section h3 {
+/* .demonstrate-section h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -137,14 +145,14 @@ ul {
   text-align: center;
   color: #272d37;
   margin-inline: 32px;
-}
+} */
 
-.texts img {
+.messages img {
   margin-bottom: 16px;
 }
 
 .builder h5 {
-  margin-bottom: 8px;
+  margin-bottom: 8px
 }
 .builder p {
   margin-bottom: 16px;
@@ -251,26 +259,27 @@ span {
 }
 
 .questions-section p {
-  margin-block: 12px 32px;
+  margin-block: 12px 12px;
 }
 
 .latin-section {
   background-color: rgba(234, 235, 240, 1);
-  padding-inline: 32px;
-  border: 1px solid rgba(1, 2, 3, 1);
+  /* padding-inline: 32px; */
+  border: 1px solid rgb(242, 243, 245);
   text-align: left;
+  margin-bottom: 40px;
 }
 
 .new-card {
   padding-block: 20px;
-  border-bottom: 1px solid rgba(1, 2, 3, 1);
 }
 
 .latin-card {
   display: flex;
   justify-content: space-between;
   padding-block: 16px;
-  border-bottom: 1px solid rgb(40, 57, 139);
+  border-bottom: 1px solid rgb(242, 243, 245);
+  margin-left: 20px;
 }
 
 .latin-button {
@@ -279,13 +288,26 @@ span {
 }
 
 .latin-button a {
-  color: rgba(95, 109, 126, 1);
+  color: rgb(12, 101, 209);
   font-weight: 500;
   line-height: 24px;
 }
 
+
 .latin-button {
   display: none;
+}
+
+.latin-button-new {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.new {
+  margin: 30px;
+  padding: 4px 12px;
+  background-color: rgba(245, 250, 255, 1);
 }
 
 .latin-button img {
@@ -295,8 +317,9 @@ span {
 }
 
 #hidden {
-  display: none;
+  visibility: hidden;
 }
+
 
 /* Akif css kod bitiş */
 .top-footer {
@@ -366,6 +389,8 @@ span {
 
 /* ece kod bitiş*/
 
+/* gokdeniz footer kod baslangic */
+
 .footer-section {
   margin-block: 32px;
 }
@@ -379,6 +404,7 @@ span {
 .footer-section-inner {
   display: flex;
   gap: 64px;
+  justify-content: center;
 }
 .footer-list {
   margin-top: 24px;
@@ -406,6 +432,7 @@ span {
 }
 .footer-button {
   margin-top: 24px;
+  text-align: center;
 }
 .margin-inline-auto {
   margin-inline: auto;
@@ -421,5 +448,70 @@ span {
 .footer-hidden-icon {
   display: flex;
   align-items: center;
+  justify-content: center;
   display: none;
+}
+
+/* gokdeniz footer kod bitis */
+
+
+
+@media (width >= 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+
+  .container-inner {
+    padding-inline: 32px;
+  }
+
+  h3 {
+    color: inherit;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .header-section {
+    padding-inline: 16px;
+    margin-block: 68px 88px;
+  }
+
+  .header-section span {
+    display: inline;
+  }
+
+  .header-section h3 {
+    padding-bottom: 24px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+
+  .messages {
+    padding: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 32px;
+
+  }
+
+
+  .computer img {
+    width: 100%;
+  }
+
+  .blogger-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .author-img {
+    width: 336px;
+  }
+
 }
