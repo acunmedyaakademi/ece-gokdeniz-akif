@@ -135,6 +135,8 @@ ul {
   color: #a5acba;
 }
 
+/* gökdeniz kod bitiş */
+
 .plan-buttons {
   display: flex;
 }
@@ -160,6 +162,11 @@ ul {
   padding: 9px 58px;
   gap: 6px;
   border-radius: 5px;
+}
+
+
+.middle-container {
+  padding-inline: 16px;  
 }
 
 .price-container {
@@ -225,6 +232,101 @@ strong {
   margin-top: 24px;
 }
 
+.messages {
+  padding: 18px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+  margin-block: 32px;
+    
+}
+
+.messages h5 {
+  color: #272d37;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-block: 16px 8px;
+}
+
+.messages p {
+  color: #5f6d7e;
+  font-weight: 400;
+  line-height: 24px;
+  
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  gap: 6px;
+}
+
+.learn-more a {
+  color: #437ef7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.redefining-section {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.redefining-section h5 {
+  color: #272d37;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.redefining-section p {
+  color: rgba(95, 109, 126, 1);
+  font-weight: 400;
+  line-height: 24px;
+  margin-block: 12px 32px;
+}
+
+.middle-content-section span {
+  color: rgba(67, 126, 247, 1);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.middle-content-section h5 {
+  color: rgba(39, 45, 55, 1);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.middle-content-section p {
+  color: rgba(95, 109, 126, 1);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.middle-content-button {
+  background-color: rgba(67, 126, 247, 1);
+  display: inline-flex;
+  font-size: 15px;
+  margin-block: 32px;
+  padding-block: 12px;
+  width: 133px;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 6px;
+}
+
+.middle-content-button a {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* gökdeniz css kodu baslangic */
 .main {
   padding-inline: 16px;
 }
@@ -311,3 +413,5 @@ strong {
   letter-spacing: -0.10000000149011612px;
   color: #5f6d7e;
 }
+
+/* gökdeniz css kodu bitis */
