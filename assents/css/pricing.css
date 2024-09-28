@@ -77,7 +77,6 @@ ul {
   /* padding-inline: 16px; */
 }
 
-
 .header {
   background-color: rgba(21, 27, 40, 1);
   padding-block: 16px;
@@ -131,4 +130,47 @@ ul {
   line-height: 26px;
   letter-spacing: -0.10000000149011612px;
   color: #a5acba;
+}
+.main {
+  padding-inline: 16px;
+}
+
+.customer-comment-title {
+  margin-top: 32px;
+  text-align: center;
+}
+.customer-comment-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+}
+.customer-comment {
+  padding-inline: 16px;
+  margin-top: 40px;
+}
+.customer-comment p {
+  padding-block: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+}
+.customer-profile-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.customer-info h6 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+}
+.customer-info span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
 }
