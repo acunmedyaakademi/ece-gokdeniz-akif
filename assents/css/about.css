@@ -298,7 +298,7 @@ span {
   display: none;
 }
 
-.latin-button-new {
+.latin-new {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -513,5 +513,6 @@ span {
   .author-img {
     width: 336px;
   }
+
 
 }
