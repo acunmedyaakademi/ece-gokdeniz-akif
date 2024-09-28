@@ -430,14 +430,14 @@ span {
   row-gap: 24px;
   column-gap: 64px;
 }
-.footer-button {
+.footer-bottom {
   margin-top: 24px;
   text-align: center;
 }
 .margin-inline-auto {
   margin-inline: auto;
 }
-.footer-button p {
+.footer-bottom p {
   line-height: 24px;
   letter-spacing: -0.10000000149011612px;
   color: #5f6d7e;
@@ -514,5 +514,46 @@ span {
     width: 336px;
   }
 
+
+  .top-footer {
+    margin-top: 40px;
+  }
+
+  .footer-text {
+    padding-inline: 32px;
+  }
+
+  .footer-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .companies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+  }
+
+  .footer-button-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 16px 40px;
+  }
+
+  .footer-hidden-icon {
+    display: flex;
+    gap: 24px
+  }
+
+
+
+  .footer-section-inner {
+    display: none;
+  }
 
 }
