@@ -77,14 +77,12 @@ ul {
   padding-bottom: 30px;
 }
 
-
 .header {
   padding-block: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-inline: 16px;
-
 }
 
 .pc {
@@ -99,7 +97,6 @@ ul {
 #hidden-text-1 {
   display: none;
 }
-
 
 .header-section h3 {
   color: #f9f9f9;
@@ -136,4 +133,60 @@ ul {
 
 .container-inner {
   padding-inline: 16px;
+}
+.select-section-title {
+  margin-top: 32px;
+  padding-inline: 16px;
+  text-align: center;
+}
+.select-section-title span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #437ef7;
+  display: block;
+  padding-bottom: 8px;
+}
+.select-section-title h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  padding-bottom: 12px;
+}
+.select-section-title p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+}
+/* select-title end */
+.select-section {
+  margin-top: 32px;
+  padding-inline: 16px;
+  display: flex;
+}
+.select-section label {
+  display: block;
+  padding-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+}
+.select-section select {
+  padding: 12px 16px 12px 16px;
+  border-radius: 5px;
+  border: 1px solid #dae0e6;
+  width: 311px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+}
+.select-section option {
+  padding: 5px;
 }
