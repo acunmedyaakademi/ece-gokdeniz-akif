@@ -408,7 +408,7 @@ ul {
   text-align: left;
   color: #437ef7;
 }
-/* footer */
+
 .footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

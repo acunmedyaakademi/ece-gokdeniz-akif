@@ -67,3 +67,125 @@ a {
 ul {
   list-style: none;
 }
+
+
+.container {
+  max-width: 375px;
+  margin-inline: auto;
+}
+
+.container-inner {
+  padding-inline: 16px;
+}
+
+.header {
+  padding-block: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(234, 235, 240);
+  padding-inline: 16px;
+}
+
+.pc {
+  display: none;
+}
+.header-section {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#hidden-text-1 {
+  display: none;
+}
+
+.header-section span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: #437ef7;
+  padding-bottom: 32px;
+  display: block;
+}
+.header-section h3 {
+  padding-bottom: 16px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+
+.header-section p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  color: #5f6d7e;
+}
+
+.blog-card h5 {
+  color: rgba(39, 45, 55, 1);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-block: 24px 4px;
+}
+
+.blog-card p {
+  color: rgba(95, 109, 126, 1);
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.card-bottom {
+  display: flex;
+}
+
+.call-to-action {
+  background-color: rgba(43, 99, 217, 1);
+  padding: 32px 16px;
+}
+
+.call-to-action h4 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.call-to-action p {
+  color: rgba(177, 204, 251, 1);
+  font-weight: 400;
+  line-height: 24px;
+  margin-block: 16px 24px;
+}
+
+.button-layer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-layer p {
+  background-color: rgba(255, 255, 255, 1);
+  color: #919ba7;
+  padding: 12px 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  border-radius: 6px;
+}
+
+.button-layer a {
+  background-color: rgba(67, 126, 247, 1);
+  color: #ffffff;
+  padding-block: 13px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
