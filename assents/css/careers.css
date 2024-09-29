@@ -510,3 +510,260 @@ ul {
   color: #a5acba;
   padding-bottom: 16px;
 }
+
+
+@media (width >= 768px) {
+  .container {
+    max-width: 768px;
+    /* margin-inline: auto; */
+  }
+
+  .container-inner {
+    padding-inline: 32px;
+  }
+
+  .header-container {
+    background: url("../careers-img/blue-header-tablet.png");
+    padding-bottom: 40px;
+  }
+
+  .header-section {
+    padding-inline: 32px;
+  }
+
+  .header-section a {
+    display: block;
+    width: 121px;
+    margin-inline: auto;
+  }
+
+  .people {
+    width: 704px;
+  }
+
+  .only-img {
+    margin: -32px;
+    margin-block: 40px 32px;
+  }
+
+  .only-img img {
+    width: 100%;
+  }
+
+  .select-section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .select-section-inner {
+    display: flex;
+    gap: 32px;
+  }
+
+  .select-section-inner select {
+    
+    width:213.33px;
+  }
+
+  .customers h3 {
+    text-align: center;
+  }
+  .customers-inner {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 32px;
+  }
+  .girl-avatar {
+    grid-column: span 2;
+    width: 704px;
+    border-radius: 5px;
+  }
+  .customers-inner-quote h5 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 304px;
+  }
+  .customers-inner-comment p {
+    width: 272px;
+  }
+  .customers-inner-comment {
+    margin-top: 64px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+ .footer-logo {
+  grid-column: span 1;
+ }
+
+ .footer-text{
+  grid-row: 1;
+  grid-column: 3;
+ }
+
+ .products {
+  grid-row: 2;
+  grid-column: 3;
+ }
+
+ .resources {
+  grid-row: 2;
+  grid-column: 1;
+ }
+
+ .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .footer-icon {
+  gap: 24px;
+ }
+}
+
+
+@media(width>= 1024px) {
+
+  .header {
+    padding-block: 0;
+  }
+
+  .header li {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+  .header > ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+  .header-btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-right: 24px;
+  }
+  .header li a {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  .header-none-border {
+    color: #437ef7;
+  }
+  .pc {
+    display: flex;
+  }
+  .mobile {
+    display: none;
+  }
+  .btn {
+    padding: 12px 18px 12px 18px;
+    border-radius: 6px;
+    border: 1px solid #437ef7;
+    background: rgba(67, 126, 247, 1);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .padding-right {
+    padding-right: 32px;
+  }
+
+  .container{
+    max-width: 1440px;
+    margin-inline: auto;
+  }
+
+  .container-inner{
+   padding-inline: 80px;
+  }
+
+
+  .header-container {
+    background: url("../careers-img/blue-header-pc.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .header-section {
+    padding-block: 80px 92px;
+    padding-inline: 320px;
+  }
+  
+  .header-section h3 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  }
+
+  .middle-content-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+  }
+
+  .middle-content-section:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .people2 {
+   display: none;
+
+  }
+
+  .hidden {
+    display: flex;
+  }
+
+
+
+  .ladder {
+    display: none;
+  }
+
+  .only-img {
+    margin-inline: -380px;
+    margin-block: 64px;
+  }
+
+  .only-img img {
+    width: 100%;
+  }
+
+
+  .select-section-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .customers-inner {
+    display: flex;
+    margin-top: 64px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 80px;
+  }
+
+}
