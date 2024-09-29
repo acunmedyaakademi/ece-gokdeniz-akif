@@ -67,3 +67,34 @@ a {
 ul {
   list-style: none;
 }
+
+.container {
+  max-width: 375px;
+  margin-inline: auto;
+}
+
+.container-inner {
+  padding-inline: 16px;
+}
+
+.header {
+  padding-block: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(234, 235, 240);
+  padding-inline: 16px;
+}
+
+.pc {
+  display: none;
+}
+.header-section {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#hidden-text-1 {
+  display: none;
+}
