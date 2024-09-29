@@ -23,6 +23,7 @@
 body {
   line-height: 1.5;
   font-family: "Inter", sans-serif;
+  background-color: rgba(248, 249, 251, 1);
 }
 
 /*
@@ -244,3 +245,95 @@ ul {
   padding: 5px;
 }
 /* select section end */
+
+
+.main-staff {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.main-staff-text h6 {
+  color: #272d37;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.main-staff-text p {
+  color: #5f6d7e;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main-staff-management a {
+  color: #437ef7;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* .tables {
+  padding: 16px;
+  border: 1px solid rgb(49, 72, 184);
+  text-align: left;
+}
+
+.table-title {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
+  
+}
+
+.table-title h6 {
+  color: #272d37;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+
+
+.hidden-text {
+  /* display: none; */
+
+
+/* .table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table p {
+  margin-inline: 28px;
+}  */
+
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  vertical-align: center;
+}
+
+.table-cell strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
