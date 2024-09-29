@@ -67,3 +67,73 @@ a {
 ul {
   list-style: none;
 }
+
+.header-container {
+  background: url("../careers-img/blue-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-inline: 16px;
+  padding-bottom: 30px;
+}
+
+
+.header {
+  padding-block: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+
+}
+
+.pc {
+  display: none;
+}
+.header-section {
+  margin-top: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+#hidden-text-1 {
+  display: none;
+}
+
+
+.header-section h3 {
+  color: #f9f9f9;
+  padding-bottom: 16px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.header-section p {
+  color: #f9f9f9;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.header-section a {
+  color: #ffffff;
+  background-color: rgba(67, 126, 247, 1);
+  display: block;
+  padding-block: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 6px;
+}
+
+/* header bitis */
+
+.container {
+  max-width: 375px;
+  margin-inline: auto;
+}
+
+.container-inner {
+  padding-inline: 16px;
+}
