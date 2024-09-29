@@ -282,4 +282,70 @@ h3 {
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
 }
 
+.footer {
+  background-color: rgba(21, 27, 40, 1);
+  padding: 32px 16px;
+}
 
+.top-footer p{
+  color: #a5acba;
+  font-weight: 400;
+  line-height: 24px;
+  margin-block: 16px;
+}
+
+.footer-layer{
+  display: flex;
+  align-items: center;
+}
+
+.footer-layer p {
+  background-color: rgba(44, 52, 68, 1);
+  color: #a5acba;
+  padding: 12px 18px;
+  width: 255px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  border: 1px solid rgba(46, 53, 69, 1);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.footer-layer a {
+  background-color: rgba(67, 126, 247, 1);
+  color: #ffffff;
+  padding: 12px 18px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.middle-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-block:52px 48px;
+}
+
+.middle-footer ul {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap:12px
+}
+
+.middle-footer li:nth-child(1) {
+  color: rgba(249, 249, 249, 1);
+  margin-bottom: 24px;
+}
+
+
+.middle-footer li {
+  color: rgba(165, 172, 186, 1);
+  font-weight: 500;
+  line-height: 24px;
+ 
+}
+
+.footer-bottom {
+  color: rgba(165, 172, 186, 1);
+}
