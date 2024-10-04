@@ -327,14 +327,17 @@ strong {
 
 /* gökdeniz css kodu baslangic */
 .main {
-  padding-inline: 16px;
+  /* padding-inline: 16px; */
+  background-color: rgba(248, 249, 251, 1);
 }
 
 .customer-comment-title {
-  margin-top: 32px;
+  margin-top: 64px;
   text-align: center;
+  background-color: rgba(248, 249, 251, 1);
 }
 .customer-comment-title h4 {
+  margin-top: 64px;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -371,10 +374,12 @@ strong {
 }
 .main {
   padding-inline: 16px;
+  padding-bottom: 64px;
+
 }
 
 .customer-comment-title {
-  margin-top: 32px;
+  padding-block: 32px 64px;
   text-align: center;
 }
 .customer-comment-title h4 {
@@ -419,7 +424,7 @@ strong {
   padding-inline: 16px;
   border-bottom: 1px solid rgba(46, 53, 69, 1);
   padding-top: 32px;
-  margin-top: 32px;
+  margin-top: 0px;
 }
 .upper-footer h3 {
   font-size: 28px;
@@ -494,7 +499,7 @@ strong {
   margin-bottom: 12px;
 }
 
-.footer ul li:first-child {
+ li:first-child {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -502,6 +507,11 @@ strong {
   letter-spacing: -0.10000000149011612px;
   margin-bottom: 16px;
 }
+
+.footer ul :hover {
+  color: #437ef7;
+}
+
 .footer-bottom {
   background: rgba(21, 27, 40, 1);
   display: flex;
@@ -582,6 +592,13 @@ strong {
 
   .people {
     width: 704px;
+  }
+
+  .customer-comment-title h4 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
   }
 
   .grid-column {
@@ -734,6 +751,14 @@ strong {
     padding: 64px 80px 48px 80px;
   }
 
+  .upper-btn-signup:hover {
+    background-color: rgb(78, 123, 212);
+  }
+
+  .upper-btn-login:hover {
+    background-color: #373f49;
+  }
+
   .footer {
     padding-inline: 80px;
     display: flex;
@@ -747,7 +772,8 @@ strong {
   }
 
   .footer-bottom {
-    padding:64px 80px;
+    padding-inline: 64px;
+    padding-block:24px 64px;
   }
   .price-card {
     padding: 32px;
