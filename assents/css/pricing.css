@@ -616,15 +616,16 @@ strong {
   .container {
     max-width: 1440px;
     margin-inline: auto;
+    padding-inline: 80px;
   }
 
   .black-header-content {
     padding-inline: 80px;
   }
 
-  .middle-container {
-    padding-inline: 80px;
-  }
+   /* .middle-container {
+   padding-inline: 80px;
+  }  */
 
   .main {
     padding-inline: 80px;
@@ -633,7 +634,8 @@ strong {
   }
 
   .header {
-    padding-block: 0;
+    padding-block: 20px;
+    padding-inline: 80px;
   }
 
   .header li {
@@ -701,24 +703,27 @@ strong {
   }
 
   .redefining-section {
-    padding-inline: 240px;
-    margin-top: 128px;
+    margin-inline: auto;
+     margin-block: 64px;
+     width: 800px;
   }
 
   .middle-content-section {
     display: flex;
     gap: 140px;
-    padding-left: 32px;
+    padding-inline: 32px;
   }
 
   .middle-content-text {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin: auto;
   }
 
   .people {
     width: 560px;
+    flex-shrink: 0;
   }
 
   .grid-column {
@@ -743,5 +748,24 @@ strong {
 
   .footer-bottom {
     padding:64px 80px;
+  }
+  .price-card {
+    padding: 32px;
+  }
+  .price-container {
+    justify-content: center;
+    padding-block: 64px;
+    
+  }
+  .price-card a:hover {
+     background-color: rgb(78, 123, 212);
+  }
+  
+  .redefining-section h5 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+
   }
 }
