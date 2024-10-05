@@ -264,14 +264,17 @@ ul {
 .comments {
   background: rgba(43, 99, 217, 1);
 
-  margin-bottom: 16px;
+  margin: 32px 16px;
   color: #fff;
 }
+
+
 .card {
   background-color: #3971e7;
-  padding-inline: 16px;
+  padding: 16px;
   border-radius: 10px;
   margin-bottom: 16px;
+
 }
 .card-inner {
   display: flex;

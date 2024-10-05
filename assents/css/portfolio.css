@@ -282,6 +282,10 @@ ul {
   margin-bottom: 12px;
 }
 
+.footer ul {
+  color: red;
+}
+
 .footer ul li:first-child {
   color: #272d37;
   font-size: 16px;
@@ -291,7 +295,8 @@ ul {
   margin-bottom: 16px;
 }
 .footer-bottom {
-  padding-top: 24px;
+  padding-inline: 16px;
+  padding-block: 24px 32px;
   border-top: 1px solid #eaebf0;
   display: flex;
   background-color: #f8f9fb;
