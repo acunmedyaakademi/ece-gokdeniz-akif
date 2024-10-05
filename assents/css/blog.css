@@ -177,6 +177,7 @@ hr {
   display: flex;
 }
 
+
 .call-to-action {
   background-color: rgba(43, 99, 217, 1);
   padding: 32px 16px;
@@ -241,6 +242,7 @@ h3 {
 
 .blog-post-card p {
   margin-top: 16px;
+  color: rgba(95, 109, 126, 1);
 }
 
 .blog-post-card h5 {
@@ -450,11 +452,29 @@ h3 {
   }
 
   .call-to-action {
-    margin: 40px 32px;
+    margin-block: 40px;
+
+  }
+
+  .call-to-text p {
+
   }
   
   .button-layer {
-    display: flex
+    display: flex;
+  }
+
+  .button-layer p {
+    width: 476px;
+  }
+
+  .display-flex {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .display-flex a {
+    width: 88px;
   }
 
   .hidden-span {
@@ -465,7 +485,6 @@ h3 {
     line-height: 20px;
     letter-spacing: -0.10000000149011612px;
     text-align: left;
-    margin-top: 8px;
   }
 
 
@@ -613,16 +632,25 @@ h3 {
   .call-to-action {
     display: flex;
     align-items: center;
+    gap: 120px;
+    justify-content: space-evenly;
   }
 
-  .hidden-span {
-    display: none;
+  .call-to-text {
+    padding-inline: 60px;
   }
+
+  .display-flex {
+    margin-right: 64px;
+  }
+
+  .display-flex p {
+    width: 352px;
+  }
+
 
   .button-layer {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+    margin-left: 60px;
   }
 
   .button-layer p {
@@ -641,6 +669,10 @@ h3 {
 
   .blog-post-card:nth-child(6) {
     display: block;
+  }
+
+  .blog-container {
+    display: grid;
   }
 
   .blue-container-inner {
