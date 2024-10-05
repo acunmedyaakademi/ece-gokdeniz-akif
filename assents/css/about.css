@@ -98,7 +98,7 @@ h3 {
   display: none;
 }
 .header-section {
-   margin-top: 32px; 
+  margin-top: 32px; 
   margin-bottom: 40px;
   text-align: center;
 }
@@ -253,7 +253,6 @@ p {
 }
 
 .our-team {
-  font-family: 'Inter';
   text-align: center;
 }
 
@@ -363,7 +362,6 @@ span {
 
 /* Akif css kod bitiş */
 .top-footer {
-  font-family: 'Inter'; /*ece*/
   background-color: #2b63d9;
 }
 
@@ -532,9 +530,6 @@ span {
     margin-block: 68px 88px;
   }
 
-  .header-section span {
-    /* display: inline; */  /*ece- yukarıdaki boşluğun gitmesi için*/
-  }
 
   .header-section h3 {
     padding-bottom: 24px;
@@ -759,13 +754,10 @@ span {
     display: flex;
     gap: 10px;
   }
-  
+
   .texts {
     display: flex;
     flex-direction: column;
-    /* margin-top: 40px; */
-    /* margin-left: 32px; ece */
-    /* margin-block: auto; */
     padding-block: 93px; 
     padding-left: 32px;
 
@@ -774,8 +766,6 @@ span {
   .texts p {
     padding-right: 124px; 
     text-align: left;
-    /* margin-bottom: 24px; */
-    /* margin-left: 32px; */
   }
 
   .texts h3 {
@@ -795,7 +785,7 @@ span {
   }
 
   .text-button {
-     margin-top: 15px;  /*ece*/
+    margin-top: 15px;  /*ece*/
     width: 133px;
     text-align: center;
   }
@@ -803,11 +793,11 @@ span {
   .blogger-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .author-img {
-    width: 334px;
+    width: 384px;
   }
 
   .latin-button {
