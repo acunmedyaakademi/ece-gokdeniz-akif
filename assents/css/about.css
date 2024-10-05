@@ -98,7 +98,7 @@ h3 {
   display: none;
 }
 .header-section {
-  margin-top: 32px;
+   margin-top: 32px; 
   margin-bottom: 40px;
   text-align: center;
 }
@@ -253,6 +253,7 @@ p {
 }
 
 .our-team {
+  font-family: 'Inter';
   text-align: center;
 }
 
@@ -362,6 +363,7 @@ span {
 
 /* Akif css kod bitiş */
 .top-footer {
+  font-family: 'Inter'; /*ece*/
   background-color: #2b63d9;
 }
 
@@ -531,7 +533,7 @@ span {
   }
 
   .header-section span {
-    display: inline;
+    /* display: inline; */  /*ece- yukarıdaki boşluğun gitmesi için*/
   }
 
   .header-section h3 {
@@ -635,6 +637,18 @@ span {
 
   .header {
     padding-block: 0;
+    padding-inline: 112px;  /*ece*/
+  }
+
+  .header h3 {
+    width: 640px;  /*ece*/
+  }
+
+  .header p {
+    font-size: 18px;
+    font-weight: 400;     /*ece*/
+    line-height: 26px;
+    margin-inline: 320px;
   }
 
   .header li {
@@ -694,8 +708,19 @@ span {
   }
 
   .header-section span {
+    /* padding-top: 80px;   ece */
     display: block;
     margin-bottom: 16px;
+  }
+  .hidden {   /*ece*/
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 64px;
+
   }
 
   .messages {
@@ -738,24 +763,39 @@ span {
   .texts {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    /* margin-left: 32px; ece */
+    /* margin-block: auto; */
+    padding-block: 93px; 
+    padding-left: 32px;
+
   }
 
   .texts p {
     padding-right: 124px; 
     text-align: left;
+    /* margin-bottom: 24px; */
+    /* margin-left: 32px; */
   }
 
   .texts h3 {
+    width: 532px; /*ece*/
     text-align: left;
-    margin-left: 0;
+    /* margin-left: 0; */
+    margin-right: 124px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+
   }
 
   .computer img {
-    width: 768px
+    width: 1000px;
   }
 
   .text-button {
+     margin-top: 15px;  /*ece*/
     width: 133px;
     text-align: center;
   }
@@ -788,9 +828,24 @@ span {
     padding: 64px 80px;
   }
 
+  .top-footer h3 {       /*ece*/
+    width: 600px;   
+    margin-inline: auto;
+    font-size: 32px;
+    font-weight: 600;          
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 32px;
+
+  }
+
   .footer {
     display: flex;
     justify-content: space-around;
+  }
+
+  .footer-button {
+    margin-bottom: 64px;   /*ece*/
   }
 
   .footer-hidden-icon {
