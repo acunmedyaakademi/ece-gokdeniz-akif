@@ -382,9 +382,31 @@ height: 100vh;
 
 
 } 
-.nav li {
-color: black;
+.spin-text li {
+color: rgb(32, 31, 31);
+display: block;
+padding-block: 8px;
+transition: transform 1s;
 }
+
+.spin-text li:hover {
+  animation: spin 1s ease-out;
+}
+
+.nav li:hover {
+  font-style: italic;
+  color: rgb(97, 86, 86);
+}
+
+.highlighted li {
+  color: rgb(0, 0, 0);
+  font-weight: bolder; 
+}
+
+.highlighted li:hover {
+  color: rgb(0, 0, 0);
+}
+
 .toggle-btn:checked + label  .cancel {
 display: block;
 /* animation: checkbox 3s ease; */
@@ -411,6 +433,15 @@ display: none;
  100% {
   transform: translateX(0);
 } 
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
 }
 
 /* Mobile End */
