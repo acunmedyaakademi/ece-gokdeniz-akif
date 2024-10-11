@@ -66,6 +66,12 @@ a {
 ul {
   list-style: none;
 }
+
+hr {
+  opacity: 0.1;
+  margin-block: 24px;
+}
+
 .container {
   max-width: 345px;
   margin-inline: auto;
@@ -374,6 +380,7 @@ ul {
 }
 .new-digital-realty {
   text-align: center;
+  margin-block: 32px;
 }
 .new-digital-realty span {
   font-size: 14px;
@@ -461,25 +468,53 @@ ul {
   display: none;
 }
 .footer {
-  padding-block: 32px;
-  background: #151b28;
-  display: grid;
-  justify-items: center;
+  padding: 32px 16px;
+  background-color: #151b28;
 }
-.footer-inner {
-  padding-top: 24px;
+
+.footer-website-logo {
+  margin-inline: auto;
+  margin-bottom: 30px;
 }
-.footer-inner > ul {
+
+.footer-inner ul {
   display: flex;
-  gap: 34px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
 }
-.footer-inner ul li {
-  font-size: 16px;
+
+.footer-inner li {
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: -0.10000000149011612px;
-  color: #a5acba;
+  color: #A5ACBA;
 }
+
+.footer-icons ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-footer a {
+  color: #A5ACBA;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.bottom-footer-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.bottom-footer-2 {
+  text-align: center;
+}
+
+
+
+
 @media (width > 500px) {
   .container {
     max-width: 768px;
