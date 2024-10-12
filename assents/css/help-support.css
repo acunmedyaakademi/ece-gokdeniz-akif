@@ -81,7 +81,7 @@ ul {
   padding-block: 16px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
   border-bottom: 1px solid rgb(234, 235, 240);
   padding-inline: 16px;
 }
@@ -303,6 +303,95 @@ ul {
 .footer-bottom {
   color: rgba(165, 172, 186, 1);
 }
+.hamburger {
+  width: 150px; 
+cursor: pointer;
+ /* display: flex;
+ flex-direction: column; */
+/* gap: 3px;  */
+position: relative;
+z-index: 1;
+margin-left: auto; 
+/* background-color: blueviolet; */
+/* height: 100vh; */
+margin-right: -16px;
+padding-inline: 16px;
+/* animation: slide-out 5s ease-out; */
+overflow-x: clip;
+/* justify-content: space-between; */
+margin-top: 5px;
+
+}
+
+.toggle-btn {
+position: absolute;
+top: 5px;
+right: 8px;
+z-index: 2;
+ display: none;
+}
+.checkbox {
+position: absolute;
+z-index: 3;
+ right: 0;
+ margin-right: 16px;
+ /* transition: transform 3s ease; */
+
+}
+.cancel {
+display: none;
+}
+
+.hamburger ul {
+display: none;
+
+}
+.toggle-btn:checked + label + ul{
+ display: block;
+  animation: slide-in 0.7s both; 
+}
+.nav-mobile{
+position: absolute;
+right: 0;
+padding-inline: 16px;
+background-color: whitesmoke;
+margin-top: -21px;
+padding-top: 64px;
+height: 100vh;
+
+
+} 
+.nav-mobile li {
+color: black;
+}
+.toggle-btn:checked + label  .cancel {
+display: block;
+/* animation: checkbox 3s ease; */
+
+
+
+
+}
+.toggle-btn:checked + label  .open {
+display: none;
+/* animation: checkbox 3s ease; */
+
+
+}
+/* .toggle-btn:checked + .hamburger {
+
+
+} */
+
+@keyframes slide-in {
+0% {
+  transform: translateX(100%)
+} 
+ 100% {
+  transform: translateX(0);
+} 
+}
+
 @media (width >= 768px) {
   .container {
     max-width: 768px;
