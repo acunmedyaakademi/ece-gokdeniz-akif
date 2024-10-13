@@ -618,7 +618,9 @@ display: none;
 } 
 }
 
-
+.mobil-tablet {
+  padding-inline: 16px;
+}
 @media (width >= 768px) {
   .container {
     max-width: 768px;
