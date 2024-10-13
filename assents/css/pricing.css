@@ -591,17 +591,23 @@ display: none;
 .nav-mobile {
 position: absolute;
 right: 0;
-padding-inline: 16px;
+padding-inline: 24px;
 background-color: whitesmoke;
 margin-top: -21px;
 padding-top: 64px;
 height: 100vh;
-
-
 } 
+
 .nav-mobile li {
-color: black;
+  color: rgb(32, 31, 31);
+  margin-block: 8px;
 }
+
+.highlighted li {
+  color: rgb(0, 0, 0);
+  font-weight: bolder; 
+}
+
 .toggle-btn:checked + label  .cancel {
 display: block;
 /* animation: checkbox 3s ease; */
