@@ -371,6 +371,7 @@ margin-top: 5px;
   display: block;
   animation: slide-in 0.7s both; 
 }
+
 .nav {
 position: absolute;
 right: 0;
@@ -409,17 +410,11 @@ transition: transform 1s;
 
 .toggle-btn:checked + label  .cancel {
 display: block;
-/* animation: checkbox 3s ease; */
-
-
-
 
 }
 .toggle-btn:checked + label  .open {
 display: none;
 /* animation: checkbox 3s ease; */
-
-
 }
 /* .toggle-btn:checked + .hamburger {
 
@@ -443,6 +438,16 @@ display: none;
       transform: rotate(360deg);
   }
 }
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 
 /* Mobile End */
 
