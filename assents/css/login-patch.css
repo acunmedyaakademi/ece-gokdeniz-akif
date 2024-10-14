@@ -263,6 +263,7 @@ hr {
 }
 .alternative {
   margin-top: 32px;
+  background-color: #FAFBFC;
 }
 
 .alternative img {
@@ -689,7 +690,6 @@ display: none;
     position: relative;
   }
   .spuercharged-inner button {
-    position: absolute;
     top: 95px;
     left: 331px;
     width: 88px;
@@ -883,11 +883,11 @@ display: none;
   }
   .alternative {
     display: flex;
-    padding: 64px 80px;
   }
   .flex-direction {
     display: flex;
     flex-direction: row-reverse;
+
   }
   .alternative .dialog {
     font-size: 16px;
@@ -898,9 +898,13 @@ display: none;
     background-image: none;
     padding-bottom: 16px;
   }
-  .alternative-inner {
-    padding-left: 80px;
+
+
+  .dailog p {
+    padding-left: 250px;
   }
+
+
   .comments-inner {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
