@@ -306,9 +306,9 @@ span {
 }
 summary {
   list-style: none;
-  background-image: url('/assents/img/down-arrow.png') right center no-repeat;
+  background-image: url('/assents/about-img/down.png') right center no-repeat;
   padding-block: 28px;
-  padding-bottom: 56px; 
+  /* padding-bottom: 56px;  */
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
@@ -320,14 +320,16 @@ summary p {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  margin-bottom: 20px;
   
 }
 details[open] summary {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
-/* hr{
+ hr{
+  margin-block: 20px;
   border: 1px solid #EAEBF0;
-} */
+} 
 
 /* .latin-section {
   background-color: rgba(234, 235, 240, 1);
@@ -937,7 +939,51 @@ display: none;
     width: 384px;
   }
 
-  .latin-button {
+  .questions-section {
+    width: 800px;
+    text-align: center;
+    margin-inline: 240px;
+  }
+
+  .faq-questions {
+    width: 1216px;
+  }
+
+  .new-btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #437EF7;
+    background-color: #F5FAFF;
+    border-radius: 5px;
+    width: 119px;
+    height: 92px;
+    padding-right: 32px;
+    padding: 4px 12px 4px 12px;
+  }
+
+  .faq-inner-scnd {
+    display: flex;
+    gap: 487px;
+    justify-content: space-between;
+  }
+
+  .bbb p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #5F6D7E;
+    width: 142px;
+
+  }
+
+
+
+  
+
+  /* .latin-button {
     display: flex;
     gap: 32px;
     margin-right: 30px;
@@ -945,7 +991,7 @@ display: none;
 
   .latin-button a {
     color: rgba(95, 109, 126, 1);
-  }
+  } */
 
   #hidden {
     visibility: visible;
