@@ -339,8 +339,6 @@ details .new-btn {
   line-height: 24px;
   letter-spacing: -0.10000000149011612px;
   padding-block: 28px;
-  background: url("../about-img/about-icon/down-icon.svg") no-repeat right
-    content-box;
   padding-inline: 32px;
 }
 
@@ -352,6 +350,10 @@ details .new-btn {
 .summary-open {
   padding-left: 32px;
   background-color: azure;
+}
+
+.hidden-summary {
+  display: none;
 }
 .top-footer {
   background-color: #2b63d9;
@@ -704,7 +706,8 @@ details .new-btn {
 
   .header {
     padding-block: 0;
-    padding-inline: 112px; /*ece*/
+    /* padding-inline: 112px; ece */
+    padding: 20px 80px;
   }
 
   .header h3 {
@@ -868,6 +871,11 @@ details .new-btn {
 
   #hidden {
     visibility: visible;
+  }
+
+  .summary-subheading {
+    background: url("../about-img/about-icon/down-icon.svg") no-repeat right
+    content-box;
   }
 
   .top-footer {

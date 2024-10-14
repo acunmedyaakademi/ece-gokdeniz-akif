@@ -541,11 +541,11 @@ display: none;
   .header {
     background-image: url("../portfolio-img/pc-background.png");
     background-repeat: no-repeat;
+    padding: 20px 80px;
   }
 
   .header-desktop-menu {
     display: flex;
-    padding: 20px 80px;
     justify-content: space-between;
   }
 

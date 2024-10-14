@@ -453,6 +453,11 @@ display: none;
   .container-inner {
     padding-inline: 80px;
   }
+
+  .header {
+    padding: 20px 80px;
+  }
+
   .none {
     display: block;
   }

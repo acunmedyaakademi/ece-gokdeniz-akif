@@ -758,8 +758,7 @@ display: none;
   }
 
   .header {
-    /* padding-block: 20px; */
-    padding-inline: 80px;
+    padding: 20px 80px;
   }
 
   .header li {

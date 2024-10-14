@@ -494,6 +494,8 @@ display: none;
     padding-inline: 32px;
   }
 
+ 
+
   .container-2 {
     margin-inline: auto;
     padding-inline: 32px;
@@ -654,6 +656,10 @@ display: none;
 
   .container-inner {
     padding-inline: 80px;
+  }
+
+  .header {
+    padding:20px 80px;
   }
 
   .header li {
