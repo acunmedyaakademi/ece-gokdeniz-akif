@@ -306,7 +306,7 @@ span {
 }
 summary {
   list-style: none;
-  background-image: url('/assents/about-img/down.png') right center no-repeat;
+  background:  url('/assents/about-img/down.png') right center no-repeat;
   padding-block: 28px;
   /* padding-bottom: 56px;  */
   font-size: 18px;
