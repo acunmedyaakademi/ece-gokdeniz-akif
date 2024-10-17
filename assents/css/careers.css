@@ -547,6 +547,9 @@ height: 100vh;
 .nav-mobile li {
   color: rgb(32, 31, 31);
   margin-block: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .highlighted li {
