@@ -140,9 +140,9 @@ hr {
   color: #5f6d7e;
 }
 
-.blog-card-big {
+/* .blog-card-big {
   margin-bottom: 32px;
-}
+} */
 
 .blog-card-big h5 {
   color: rgba(39, 45, 55, 1);
@@ -647,7 +647,7 @@ display: none;
   }
 }
 
-@media(width>= 1024px) {
+@media(width> 1024px) {
 
   .container {
     max-width: 1440px;
@@ -774,6 +774,29 @@ display: none;
 
   .blog-container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .blog-cardText-mobile {
+    display: none;
+  }
+
+  .blog-cardText-pc {
+    display: block;
+  }
+
+  .blog-card {
+    align-items: center;
+  }
+
+  .blog-card-big {
+    grid-row: span 3;
+  }
+
+  .blog-card img {
+    width: 188px;
+    height: 108px;
   }
 
   .blue-container-inner {
