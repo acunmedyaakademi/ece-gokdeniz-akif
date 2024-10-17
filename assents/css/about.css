@@ -89,10 +89,11 @@ h3 {
   padding-block: 16px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid rgb(234, 235, 240);
+  border-bottom: 1px solid rgba(77, 79, 88, 0.432);
   padding-inline: 16px;
   position: sticky;
   top: 0;
+background-color: white;
 }
 
 .pc {
@@ -114,7 +115,7 @@ h3 {
   line-height: 20px;
   letter-spacing: -0.10000000149011612px;
   color: #437ef7;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
   display: block;
 }
 .header-section h3 {
@@ -293,9 +294,9 @@ span {
 .questions-section p {
   margin-block: 12px 12px;
 }
-.faqs {
-  padding-inline: 32px;
-}
+ .faqs {
+  margin-block: 32px;
+} 
 .faq-questions {
   border: 1px solid #eaebf0;
   padding-top: 20px;
@@ -552,11 +553,16 @@ details .new-btn {
 .nav-mobile li {
   color: rgb(32, 31, 31);
   margin-block: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  letter-spacing: -0.10000000149011612px;
 }
 
-.highlighted li {
+.highlighted  {
   color: rgb(0, 0, 0);
   font-weight: bolder;
+  
 }
 
 .toggle-btn:checked + label .cancel {
@@ -773,7 +779,8 @@ details .new-btn {
   }
 
   .header-section {
-    padding: 80px 350px;
+    width: 640px;
+    margin-inline: auto;
   }
 
   .header-section span {
@@ -875,7 +882,7 @@ details .new-btn {
 
   .summary-subheading {
     background: url("../about-img/about-icon/down-icon.svg") no-repeat right
-    content-box;
+      content-box;
   }
 
   .top-footer {
@@ -919,5 +926,12 @@ details .new-btn {
   .our-team {
     width: 800px;
     margin: 64px auto;
+  }
+  .hidden-summary {
+    display: block;
+  }
+  .faqs {
+    padding-inline: 32px;
+    margin-block: 0;
   }
 }
