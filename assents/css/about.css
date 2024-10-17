@@ -114,7 +114,7 @@ h3 {
   line-height: 20px;
   letter-spacing: -0.10000000149011612px;
   color: #437ef7;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
   display: block;
 }
 .header-section h3 {
@@ -293,9 +293,9 @@ span {
 .questions-section p {
   margin-block: 12px 12px;
 }
-.faqs {
-  padding-inline: 32px;
-}
+ .faqs {
+  margin-block: 32px;
+} 
 .faq-questions {
   border: 1px solid #eaebf0;
   padding-top: 20px;
@@ -773,7 +773,8 @@ details .new-btn {
   }
 
   .header-section {
-    padding: 80px 350px;
+    width: 640px;
+    margin-inline: auto;
   }
 
   .header-section span {
@@ -875,7 +876,7 @@ details .new-btn {
 
   .summary-subheading {
     background: url("../about-img/about-icon/down-icon.svg") no-repeat right
-    content-box;
+      content-box;
   }
 
   .top-footer {
@@ -919,5 +920,12 @@ details .new-btn {
   .our-team {
     width: 800px;
     margin: 64px auto;
+  }
+  .hidden-summary {
+    display: block;
+  }
+  .faqs {
+    padding-inline: 32px;
+    margin-block: 0;
   }
 }
