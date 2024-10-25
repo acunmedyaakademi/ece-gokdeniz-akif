@@ -351,11 +351,14 @@ details .new-btn {
   margin-block: 52px 48px;
 }
 
+
+
+
 .middle-footer ul {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  
 }
 
 .middle-footer li:nth-child(1) {
@@ -374,34 +377,26 @@ details .new-btn {
 }
 .hamburger {
   width: 150px; 
-cursor: pointer;
- /* display: flex;
- flex-direction: column; */
-/* gap: 3px;  */
-position: relative;
-z-index: 1;
-margin-left: auto; 
-/* background-color: blueviolet; */
-/* height: 100vh; */
-margin-right: -16px;
-padding-inline: 16px;
-/* animation: slide-out 5s ease-out; */
-overflow-x: clip;
-/* justify-content: space-between; */
-margin-top: 5px;
-
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  margin-left: auto; 
+  margin-right: -16px;
+  padding-inline: 16px;
+  overflow-x: clip;
+  margin-top: 5px;
 }
 
 .toggle-btn {
-position: absolute;
-top: 5px;
-right: 8px;
-z-index: 2;
- display: none;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  z-index: 2;
+  display: none;
 }
 .checkbox {
-position: absolute;
-z-index: 3;
+  position: absolute;
+  z-index: 3;
  right: 0;
  margin-right: 16px;
  /* transition: transform 3s ease; */
@@ -614,6 +609,12 @@ display: none;
     align-items: center;
   }
 
+  .top-footer {
+    width: 309px;
+    margin-bottom: 200px;
+    margin-right: 60px;
+  }
+
   .middle-footer {
     display: flex;
     gap: 123px;
@@ -634,4 +635,9 @@ display: none;
     background: url("../about-img/about-icon/down-icon.svg") no-repeat right
       content-box;
   }
+
+  .middle-footer ul>a:hover {
+    color: #437ef7;
+  }
+
 }

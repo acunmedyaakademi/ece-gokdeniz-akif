@@ -457,6 +457,7 @@ details .new-btn {
   display: none;
 }
 .footer {
+  margin-inline: 16px;
   display: grid;
   row-gap: 24px;
   column-gap: 64px;
