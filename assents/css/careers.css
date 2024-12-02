@@ -854,6 +854,7 @@ display: none;
   .footer {
     display: flex;
     gap: 80px;
+    justify-content: space-between;
   }
 
 }
